@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f7f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar custom color */
+.navbar {
+  background-color: #4a7c59 !important;
+}
+
+/* Page headings */
+h1, h2 {
+  color: #3a5c45;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #c8e6c9 !important;
+  border-radius: 12px !important;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(74, 124, 89, 0.2) !important;
+  transition: box-shadow 0.2s ease;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4a7c59 !important;
+  border-color: #4a7c59 !important;
+}
+
+.btn-primary:hover {
+  background-color: #3a5c45 !important;
+  border-color: #3a5c45 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #4a7c59 !important;
+}
+
+/* Form inputs focus */
+.form-control:focus, .form-select:focus {
+  border-color: #4a7c59 !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 124, 89, 0.25) !important;
+}
+
+/* Home page hero area */
+.lead {
+  color: #5a7a60;
+}
